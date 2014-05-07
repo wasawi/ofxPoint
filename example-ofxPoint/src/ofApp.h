@@ -16,6 +16,21 @@ public:
 	void process(ofxUCharPoint p3d);
 	void process(ofxDoublePoint p3d);
 	
+	void print(ofxPoint _floatPoint,
+			   ofxIntPoint _intPoint,
+			   ofxUCharPoint _ucharPoint,
+			   ofxDoublePoint _doublePoint){
+		std::cout.precision(20);
+		cout << _floatPoint << endl;
+		cout << _intPoint << endl;
+		cout << _ucharPoint << endl;
+		cout << _doublePoint << endl;
+		cout << "*********************" << endl;
+	};
+	
+	void a();
+	void b();
+	
     void keyPressed  (int key);
     void keyReleased(int key);
     void mouseMoved(int x, int y );

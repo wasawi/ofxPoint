@@ -3,6 +3,29 @@
 //--------------------------------------------------------------
 void ofApp::setup()
 {
+	
+	a();
+	b();
+	//	c();
+	//	d();
+
+	
+}
+
+//--------------------------------------------------------------
+void ofApp::a()
+{
+ofxPoint fpos(3.141592653589793238);
+ofxIntPoint ipos(3,3,3.55555);
+ofxUCharPoint ucharpos('s','d','a');
+ofxDoublePoint dpos(3.141592653589793238);
+
+print(fpos, ipos, ucharpos, dpos);
+
+}
+//--------------------------------------------------------------
+void ofApp::b()
+{
 	ofxPoint		float3d;
 	ofxIntPoint		int3d;
 	ofxUCharPoint	uchar3d;
@@ -16,7 +39,7 @@ void ofApp::setup()
 	ofVec3f		ofVec_;
 	ofVec3f		ofVec_2;
 	ofxPoint	float3d_;
-
+	
 	//scalars
 	ofxIntPoint anIntpoint1(3);
 	ofxIntPoint anIntpoint3(3.4445f);
@@ -24,12 +47,12 @@ void ofApp::setup()
 	
 	//same type
 	ofxIntPoint anIntpoint4(int3d);
-
+	
 	//other types
 	ofxIntPoint anIntpoint6(uchar3d);
 	ofxIntPoint anIntpoint7(double3d);
 	ofxIntPoint anIntpoint2(float3d);
-
+	
 	float3d = ofVec_;
 	float3d = float3d;
 	float3d = float3d_;
@@ -37,7 +60,7 @@ void ofApp::setup()
 	float3d = int3d;
 	uchar3d = float3d;
 	float3d = uchar3d;
-
+	
 	float3d = float3d + ofVec_;
 	
 	// ofVec3f receiving my types
@@ -47,6 +70,8 @@ void ofApp::setup()
 	ofVec3f ofVec1(float3d);
 	ofVec3f ofVec2((ofVec3f) double3d);
 	ofVec3f ofVec3(double3d);
+	
+	print(float3d, int3d, uchar3d, double3d);
 	
 }
 
