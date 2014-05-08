@@ -37,6 +37,7 @@ void ofApp::b()
 	process(double3d);
 	
 	ofVec3f		ofVec_;
+	ofVec3f		ofVec_1;
 	ofVec3f		ofVec_2;
 	ofxPoint	float3d_;
 	
@@ -65,14 +66,19 @@ void ofApp::b()
 	
 	// ofVec3f receiving my types
 	ofVec_ = float3d + ofVec_;
-	ofVec_ = (ofVec3f) float3d;
-	ofVec_2 = (ofVec3f) double3d;
+	ofVec_1 = anIntpoint1;
+	ofVec_2 = double3d;
 	ofVec3f ofVec1(float3d);
-	ofVec3f ofVec2((ofVec3f) double3d);
 	ofVec3f ofVec3(double3d);
 	
-	print(float3d, int3d, uchar3d, double3d);
+	cout << "*********************" << endl;
+	cout << ofVec_ << endl;
+	cout << ofVec_1 << endl;
+	cout << ofVec_2 << endl;
+	cout << "*********************" << endl;
+
 	
+	print(float3d, int3d, uchar3d, double3d);
 }
 
 //--------------------------------------------------------------
