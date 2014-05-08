@@ -9,17 +9,17 @@ a template for ofVec3f
 Types:
 typedef ofxPoint_<float> ofxPoint;
 
-typedef ofxPoint_<int> 				ofxIntPoint;
-typedef ofxPoint_<char> 			ofxCharPoint;
-typedef ofxPoint_<unsigned char> 	ofxUCharPoint;
-typedef ofxPoint_<short> 			ofxShortPoint;
-typedef ofxPoint_<unsigned short> 	ofxUShortPoint;
-typedef ofxPoint_<int> 				ofxIntPoint;
-typedef ofxPoint_<unsigned int> 	ofxUIntPoint;
-typedef ofxPoint_<long> 			ofxLongPoint;
-typedef ofxPoint_<unsigned long> 	ofxULongPoint;
-typedef ofxPoint_<float> 			ofxFloatPoint;
-typedef ofxPoint_<double> 			ofxDoublePoint;
+	typedef ofxPoint_<int> 				ofxIntPoint;
+	typedef ofxPoint_<char> 			ofxCharPoint;
+	typedef ofxPoint_<unsigned char> 	ofxUCharPoint;
+	typedef ofxPoint_<short> 			ofxShortPoint;
+	typedef ofxPoint_<unsigned short> 	ofxUShortPoint;
+	typedef ofxPoint_<int> 				ofxIntPoint;
+	typedef ofxPoint_<unsigned int> 	ofxUIntPoint;
+	typedef ofxPoint_<long> 			ofxLongPoint;
+	typedef ofxPoint_<unsigned long> 	ofxULongPoint;
+	typedef ofxPoint_<float> 			ofxFloatPoint;
+	typedef ofxPoint_<double> 			ofxDoublePoint;
 
 Usage
 -----
