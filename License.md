@@ -1,4 +1,4 @@
-ofxVolume is available under the [MIT License](https://secure.wikimedia.org/wikipedia/en/wiki/Mit_license). 
+ofxPoint is available under the [MIT License](https://secure.wikimedia.org/wikipedia/en/wiki/Mit_license). 
 
 Copyright (c) 2013 - Jordi Puig
 
